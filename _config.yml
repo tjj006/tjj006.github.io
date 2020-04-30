@@ -3,8 +3,8 @@ title: Tao Blog
 SEOTitle: Tao的博客 | Tao Blog
 header-img: img/home-bg.jpg
 email: tjj006@gmail.com
-description: "陶叔叔的个人博客，与你一起发现更大的世界。"
-keyword: "陶叔叔"
+description: "陶叔的个人博客，与你一起发现更大的世界。"
+keyword: "陶叔"
 url: ""              # your host, for absolute URL
 baseurl: ""          # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -135,5 +135,8 @@ friends: [
     },{
         title: "蕨根",
         href: "https://luolilong.github.io/"
+    },{
+        title: "郭姐",
+        href: "https://muchild.github.io/loffer/"
     }
 ]

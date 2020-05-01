@@ -1,2 +1,5 @@
 /.jekyll-cache/
 /.idea/
+/_site/
+/less/
+/node_modules/

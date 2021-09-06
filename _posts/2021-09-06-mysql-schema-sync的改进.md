@@ -179,8 +179,13 @@ mysqlsync = "/Users/taojiaju/Work/code/mysql-schema-sync/mysql-schema-sync"
 
 ### 参考资料
 > https://github.com/hidu/mysql-schema-sync
+
 > https://www.geek-share.com/detail/2754929593.html
+
 > https://blog.csdn.net/liyyzz33/article/details/84587300
+
 > https://www.cnblogs.com/Camiluo/p/13359532.html
+
+> https://learnku.com/docs/the-little-go-book/run_go_code/3301
 
 

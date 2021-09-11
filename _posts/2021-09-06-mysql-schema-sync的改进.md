@@ -11,7 +11,7 @@ tags:
 - 表结构同步
 ---
 
-### Go&Python环境搭建
+### 环境搭建Go&Python
 1. brew install安装go环境
 2. 安装调试python3环境
 3. 下载代码：go get -u github.com/hidu/mysql-schema-sync
@@ -122,7 +122,7 @@ if __name__ == '__main__':
 ```
 
 ### 部署到服务器
-> 192.168.0.28
+> 192.168.XXX.XXX
 
 ### 查看SQL
 > mysql-schema-sync -conf mydb_conf.json 2>/dev/null >db_alter.sql
@@ -130,17 +130,17 @@ if __name__ == '__main__':
 ### 脚本批量执行（某个环境的所有数据库）
 > /usr/local/bin/python3 /root/go/all_db_sync.py sit6
 
-### 定时任务Crontab -e （执行所有环境的数据库）
+### 定时任务crontab -e （每周日凌晨，执行所有环境的数据库）
 ```
-0 1 * * * /usr/local/bin/python3 /root/go/all_db_sync.py dev1
-10 1 * * * /usr/local/bin/python3 /root/go/all_db_sync.py dev2
-20 1 * * * /usr/local/bin/python3 /root/go/all_db_sync.py dev3
-30 1 * * * /usr/local/bin/python3 /root/go/all_db_sync.py dev4
-40 1 * * * /usr/local/bin/python3 /root/go/all_db_sync.py dev5
-50 1 * * * /usr/local/bin/python3 /root/go/all_db_sync.py dev6
-0 2 * * * /usr/local/bin/python3 /root/go/all_db_sync.py dev7
-10 2 * * * /usr/local/bin/python3 /root/go/all_db_sync.py sit5
-20 2 * * * /usr/local/bin/python3 /root/go/all_db_sync.py sit6
+0 1 * * 0 /usr/local/bin/python3 /root/go/all_db_sync.py dev1
+10 1 * * 0 /usr/local/bin/python3 /root/go/all_db_sync.py dev2
+20 1 * * 0 /usr/local/bin/python3 /root/go/all_db_sync.py dev3
+30 1 * * 0 /usr/local/bin/python3 /root/go/all_db_sync.py dev4
+40 1 * * 0 /usr/local/bin/python3 /root/go/all_db_sync.py dev5
+50 1 * * 0 /usr/local/bin/python3 /root/go/all_db_sync.py dev6
+0 2 * * 0 /usr/local/bin/python3 /root/go/all_db_sync.py dev7
+10 2 * * 0 /usr/local/bin/python3 /root/go/all_db_sync.py sit5
+20 2 * * 0 /usr/local/bin/python3 /root/go/all_db_sync.py sit6
 ```
 
 ### 存在问题
@@ -186,6 +186,5 @@ mysqlsync = "/Users/taojiaju/Work/code/mysql-schema-sync/mysql-schema-sync"
 
 > https://www.cnblogs.com/Camiluo/p/13359532.html
 
-> https://learnku.com/docs/the-little-go-book/run_go_code/3301
 
 

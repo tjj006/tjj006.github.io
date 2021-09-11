@@ -186,5 +186,7 @@ mysqlsync = "/Users/taojiaju/Work/code/mysql-schema-sync/mysql-schema-sync"
 
 > https://www.cnblogs.com/Camiluo/p/13359532.html
 
+> https://www.jianshu.com/p/22f4b7860f42
+
 
 

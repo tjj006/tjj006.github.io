@@ -78,7 +78,7 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Reading maketh a full man, conference a ready man, and writing an exact man. <br>
+sidebar-about-description: "Reading makes a full man, conference a ready man, and writing an exact man. <br>
 读书使人充实，讨论使人机智，写作使人精确"
 sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
@@ -107,8 +107,8 @@ friends: [
     #     title: "Su",
     #     href: "http://su.gallery/"
     # },{
-        title: "乱序",
-        href: "http://mida.re/"
+        title: "插座学院",
+        href: "https://chazuomba.com/home/"
     },{
         title: "Sherry Wu",
         href: "https://xuechundesign.github.io"
